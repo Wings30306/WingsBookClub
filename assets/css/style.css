@@ -3,8 +3,14 @@
 /* background colours */
 
 .bg-header {
-  background-color: blueviolet;
+  background-image: url(../images/LosChristianosReading.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba (25,25,25,0);
   margin: 0;
+  opacity: 0.7;
+  height: 33vh;
 }
 
 .bg-nav {
@@ -26,7 +32,7 @@
   margin: 0;
 }
 
-.bg-footer, .bg-body {
+.bg-footer{
   background-color: chocolate;
   margin: 0;
 }
@@ -42,8 +48,8 @@ body,
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, p {
-  padding: 0 20px
+h1, h2, h3, h4, h5 {
+  padding: 0 10px
 }
 
 .row-table {
@@ -55,10 +61,25 @@ h1, h2, h3, h4, h5, p {
 }
 
 /*Header*/
+.page-header {
+  color: #fff;
+  font-family: "Princess Sofia";
+}
+
+.page-header h1 {
+  font-size:100px;
+}
+
+.page-header h3 {
+  font-size:80px;
+}
+
+.navbar {
+  margin:0;
+}
 .navbar-nav {
   margin: 0;
   width: 100%;
-  text-align:
 }
 
 .navbar-nav li {
@@ -75,7 +96,7 @@ h1, h2, h3, h4, h5, p {
 
 /*Middle*/
 .middle {
-  min-height: 65vh;
+  height: vh;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -87,20 +108,36 @@ h1, h2, h3, h4, h5, p {
 
 /*Footer*/
 .footer {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  margin: 0;
+  bottom:0;
+}
+
+.footer p {
+  padding: 0 10px;
 }
 
 /*Responsiveness*/
 @media screen and (min-width: 992px) {
   .table-cell {
-    height: 65vh;
+    height: 45vh;
     overflow-x: hidden;
     overflow-y: auto;
+  }
+  .footer {
+    margin: 0;
+    bottom:0;
+    height: 10vh;
   }
   .navbar-nav li {
     width: 20%;
     text-align: center;
+  }
+  .page-header {
+    height: 40vh;
+  }
+  .navbar {
+    margin:0;
+    height: 5vh;
   }
 }
 
