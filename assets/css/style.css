@@ -58,12 +58,15 @@ h1, h2, h3, h4, h5, p {
 .navbar-nav {
   margin: 0;
   width: 100%;
+  text-align:
 }
 
 .navbar-nav li {
   margin: 0;
   padding: 0;
 }
+
+
 /*Left*/
 .left {
   padding-top: 5px;
