@@ -107,6 +107,10 @@ body {
   display: none;
 }
 
+.right input, .right text-area{
+  width: 100%;
+}
+
 /*Footer*/
 .footer-left, .footer-right {
   margin: 0;
