@@ -6,34 +6,33 @@
   background-image: url(../images/LosChristianosReading.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  background-color: rgba (25,25,25,0);
+  background-position: center;  
   margin: 0;
   opacity: 0.7;
   height: 33vh;
 }
 
 .bg-nav {
-  background-color: red;
+  background-color: #4C7595;
   margin: 0;
 }
 .bg-left {
-  background-color: greenyellow;
+  background-color: #A8C4E7;
   margin: 0;
 }
 
 .bg-middle {
-  background-color: green;
+  background-color: #EDEAE7;
   margin: 0;
 }
 
 .bg-right {
-  background-color: yellow;
+  background-color: #A8C4E7;
   margin: 0;
 }
 
-.bg-footer{
-  background-color: chocolate;
+.bg-footer, .bg-body{
+  background-color: #4C7595;
   margin: 0;
 }
 
@@ -48,8 +47,8 @@ body,
   margin: 0;
 }
 
-h1, h2, h3, h4, h5 {
-  padding: 0 10px
+body {
+  font-family: "Bad Script";
 }
 
 .row-table {
@@ -66,12 +65,8 @@ h1, h2, h3, h4, h5 {
   font-family: "Princess Sofia";
 }
 
-.page-header h1 {
-  font-size:100px;
-}
-
-.page-header h3 {
-  font-size:80px;
+.page-header h1, .page-header h3 {
+  padding: 0 10px;
 }
 
 .navbar {
@@ -82,9 +77,16 @@ h1, h2, h3, h4, h5 {
   width: 100%;
 }
 
-.navbar-nav li {
+.navbar-nav li a{
   margin: 0;
-  padding: 0;
+  color: #c1c1c1;
+  font-family: "indie Flower", cursive;
+  font-weight: bold;
+}
+
+.navbar-nav li a:hover {
+  background-color: #c1c1c1;
+  color: #4C7595;
 }
 
 
@@ -96,7 +98,6 @@ h1, h2, h3, h4, h5 {
 
 /*Middle*/
 .middle {
-  height: vh;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -107,13 +108,31 @@ h1, h2, h3, h4, h5 {
 }
 
 /*Footer*/
-.footer {
+.footer-left, .footer-right {
   margin: 0;
   bottom:0;
+  padding: 0;
+  padding-top: 10px;
+  box-sizing: border-box;
 }
 
-.footer p {
-  padding: 0 10px;
+.footer-left p  {
+  text-align: left;
+  color: #c1c1c1;
+  font-family: "indie Flower", cursive;
+  font-weight: bold;
+}
+
+.footer-left i {
+  color: #c1c1c1;
+  font-size: larger;
+}
+
+.footer-right p {
+  text-align: right;
+  color: #c1c1c1;
+  font-family: "indie Flower", cursive;
+  font-weight: bold;
 }
 
 /*Responsiveness*/
@@ -138,6 +157,13 @@ h1, h2, h3, h4, h5 {
   .navbar {
     margin:0;
     height: 5vh;
+  }
+  .page-header h1 {
+    font-size:100px;
+  }
+  
+  .page-header h3 {
+    font-size:80px;
   }
 }
 
