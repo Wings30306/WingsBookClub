@@ -58,7 +58,13 @@ body {
 .table-cell {
   margin: 0;
 }
-
+a {
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
 /*Header*/
 .page-header {
   color: #fff;
@@ -105,11 +111,13 @@ body {
 /*Right*/
 .right {
   display: none;
+  text-align: justify;
+}
+.suggestions-form {
+  width: 100%;
+  
 }
 
-.right input, .right text-area{
-  width: 100%;
-}
 
 /*Footer*/
 .footer-left, .footer-right {
@@ -142,8 +150,8 @@ body {
 /*Responsiveness*/
 @media screen and (min-width: 992px) {
   .table-cell {
-    height: 45vh;
-    overflow-x: hidden;
+    height: 50vh;
+    overflow-x: auto;
     overflow-y: auto;
   }
   .footer {
