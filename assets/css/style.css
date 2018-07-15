@@ -49,8 +49,9 @@ body,
 .container-fluid,
 .row,
 .col-xs-12 {
-  padding: 0;
+  padding: 0px;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -59,14 +60,21 @@ body {
 
 h1,h2,h3,h4 {
   font-family: "Bad Script"; 
+  padding: 5px;
 }
-
+.quote {
+  font-style: italic;
+  padding: 10px;
+  box-sizing: border-box;
+}
 .row-table {
   margin: 0;
 }
 
 .table-cell {
   margin: 0;
+  padding: 15px;
+  box-sizing: border-box;
 }
 a {
   text-decoration: none;
@@ -127,6 +135,12 @@ a:hover {
 }
 .middle p {
   text-align: justify;
+}
+.middle .row .col-md-6 {
+  padding: 15px;
+  border-color: #4c7595;
+  border-width: 3px;
+  border-style: double;
 }
 
 /*Right*/
@@ -193,11 +207,23 @@ img {
   padding: 0;
 }
 
+.hp {
+  background-image: url(../images/HPvertical.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: overlay;
+  z-index: 0;
+  padding: 0;
+}
+
 /*Responsiveness*/
 @media screen and (min-width: 992px) {
   .table-cell {
     height: 50vh;
     overflow-y: auto;
+    overflow-x: hidden;
     padding-bottom: 15px;
   }
   .left,
@@ -227,23 +253,23 @@ img {
   .page-header h3 {
     font-size: 80px;
   }
-
-
 }
 
 @media screen and (min-width: 1200px) {
   .right {
     display: table-cell;
-    padding-bottom: 15px;
+    padding: 15px;
+    box-sizing: border-box;
   }
   .cover-img {
     display: block;
     position: absolute;
     z-index: 2;
     opacity: 1;
-    transition: opacity 2s ease-in-out;
-    margin: 0 0 15px 0;
+    transition: opacity 1s ease-in-out;
+    margin: 0;
     padding:0; 
+    width:100%;
   }
   
   .cover-img:hover {
