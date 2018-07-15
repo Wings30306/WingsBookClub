@@ -136,11 +136,15 @@ a:hover {
 .middle p {
   text-align: justify;
 }
-.middle .row .col-md-6 {
-  padding: 15px;
+.middle .row .col-md-6{
+  
   border-color: #4c7595;
   border-width: 3px;
   border-style: double;
+}
+
+.middle .row .col-md-6 h3, .middle .row .col-md-6 p{
+  padding: 15px;
 }
 
 /*Right*/
