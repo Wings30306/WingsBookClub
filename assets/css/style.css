@@ -151,8 +151,11 @@ a:hover {
 @media screen and (min-width: 992px) {
   .table-cell {
     height: 50vh;
-    overflow-x: auto;
     overflow-y: auto;
+    padding-bottom: 15px;
+  }
+  .left, .middle {
+    padding-bottom: 15px;
   }
   .footer {
     margin: 0;
@@ -182,5 +185,6 @@ a:hover {
 @media screen and (min-width: 1200px) {
   .right {
     display: table-cell;
+    padding-bottom: 15px;
   }
 }
