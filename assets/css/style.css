@@ -327,7 +327,7 @@ img {
     width:100%;
   }
   
-  .cover-img:hover {
+  .cover-img:target {
     opacity: 0;
   }
 }
