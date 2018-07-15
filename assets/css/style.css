@@ -203,6 +203,7 @@ img {
   background-position: top;
   background-color: rgba(255, 255, 255, 0.8);
   background-blend-mode: overlay;
+  background-attachment: local;
   z-index: 0;
   padding: 0;
 }
@@ -214,6 +215,52 @@ img {
   background-position: top;
   background-color: rgba(255, 255, 255, 0.8);
   background-blend-mode: overlay;
+  background-attachment: local;
+  z-index: 0;
+  padding: 0;
+}
+
+.w2w  {
+  background-image: url(../images/WomanToWomanFront.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: overlay;
+  background-attachment: local;
+  z-index: 0;
+  padding: 0;
+}
+.littleshop{
+  background-image: url(../images/LittleShopFront.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: overlay;
+  background-attachment: local;
+  z-index: 0;
+  padding: 0;
+}
+.dragon{
+  background-image: url(../images/DragonsTale.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: overlay;
+  background-attachment: local;
+  z-index: 0;
+  padding: 0;
+}
+.elf-tree {
+  background-image: url(../images/ElfTree-cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: overlay;
+  background-attachment: local;
   z-index: 0;
   padding: 0;
 }
@@ -267,6 +314,10 @@ img {
     z-index: 2;
     opacity: 1;
     transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
     margin: 0;
     padding:0; 
     width:100%;
