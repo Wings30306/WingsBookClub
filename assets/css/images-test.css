@@ -1,0 +1,28 @@
+div {
+  margin: auto;
+  background-image: url(../images/ChocolateLoversClubVertical);
+  width: 95vw;
+}
+
+.under {
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(235, 241, 241, 0.5)
+}
+
+.img-hor {
+  width: 100%;
+}
+
+.img-vert {
+  position: absolute;
+  z-index: 0;
+  opacity: 1;
+  transition: opacity 2s ease-in-out;
+  width: 95vw
+}
+
+.img-vert:hover {
+  opacity: 0;
+}
