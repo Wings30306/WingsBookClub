@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Bad+Script:100,200,300,400,500,600,700|Indie+Flower:100,200,300,400,500,600,700|Princess+Sofia:100,200,300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Bad+Script:100,200,300,400,500,600,700|Indie+Flower:100,200,300,400,500,600,700|Princess+Sofia:100,200,300,400,500,600,700|Short+Stack:100,200,300,400,500,600,700");
 
 /* background colours */
 
@@ -31,10 +31,15 @@
   margin: 0;
 }
 
-.bg-footer,
-.bg-body {
+.bg-footer, {
   background-color: #4c7595;
   margin: 0;
+  z-index: 10;
+  position: absolute;
+}
+
+.bg-body {
+  background-color: #4c7595;
 }
 
 /*General*/
@@ -49,7 +54,11 @@ body,
 }
 
 body {
-  font-family: "Bad Script", cursive;
+  font-family: "Short Stack", cursive;
+}
+
+h1,h2,h3,h4 {
+  font-family: "Bad Script"; 
 }
 
 .row-table {
@@ -75,6 +84,7 @@ a:hover {
 .page-header h1,
 .page-header h3 {
   padding: 0 10px;
+  font-family: "Princess Sofia", cursive;
 }
 
 .navbar {
@@ -96,9 +106,8 @@ a:hover {
   font-weight: bold;
 }
 
-
 .navbar-nav li a:hover {
-  background-color: #5F8CB5;
+  background-color: #5f8cb5;
   color: #c1c1c1;
 }
 
@@ -144,6 +153,7 @@ a:hover {
   padding: 0;
   padding-top: 10px;
   box-sizing: border-box;
+  
 }
 
 .footer-left p {
@@ -163,6 +173,24 @@ a:hover {
   color: #c1c1c1;
   font-family: "Indie Flower", cursive;
   font-weight: bold;
+}
+/*Images*/
+img {
+  width: 100%;
+}
+.cover-img {
+    display: none;
+}
+
+.choclov {
+  background-image: url(../images/ChocolateLoversClubVertical.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: overlay;
+  z-index: 0;
+  padding: 0;
 }
 
 /*Responsiveness*/
@@ -199,6 +227,19 @@ a:hover {
   .page-header h3 {
     font-size: 80px;
   }
+
+.cover-img {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  opacity: 1;
+  transition: opacity 2s ease-in-out;
+  margin: 0 0 15px 0;
+  padding:0; 
+}
+
+.cover-img:hover {
+  opacity: 0;
 }
 
 @media screen and (min-width: 1200px) {
