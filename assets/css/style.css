@@ -6,33 +6,34 @@
   background-image: url(../images/LosChristianosReading.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;  
+  background-position: center;
   margin: 0;
   opacity: 0.7;
   height: 33vh;
 }
 
 .bg-nav {
-  background-color: #4C7595;
+  background-color: #4c7595;
   margin: 0;
 }
 .bg-left {
-  background-color: #A8C4E7;
+  background-color: #a8c4e7;
   margin: 0;
 }
 
 .bg-middle {
-  background-color: #EDEAE7;
+  background-color: #edeae7;
   margin: 0;
 }
 
 .bg-right {
-  background-color: #A8C4E7;
+  background-color: #a8c4e7;
   margin: 0;
 }
 
-.bg-footer, .bg-body{
-  background-color: #4C7595;
+.bg-footer,
+.bg-body {
+  background-color: #4c7595;
   margin: 0;
 }
 
@@ -48,7 +49,7 @@ body,
 }
 
 body {
-  font-family: "Bad Script";
+  font-family: "Bad Script", cursive;
 }
 
 .row-table {
@@ -68,38 +69,46 @@ a:hover {
 /*Header*/
 .page-header {
   color: #fff;
-  font-family: "Princess Sofia";
+  font-family: "Princess Sofia", cursive;
 }
 
-.page-header h1, .page-header h3 {
+.page-header h1,
+.page-header h3 {
   padding: 0 10px;
 }
 
 .navbar {
-  margin:0;
+  margin: 0;
 }
 .navbar-nav {
   margin: 0;
   width: 100%;
 }
+.navbar-nav li .youarehere {
+  background-color: #c1c1c1;
+  color: #4c7595;
+}
 
-.navbar-nav li a{
+.navbar-nav li a {
   margin: 0;
   color: #c1c1c1;
-  font-family: "indie Flower", cursive;
+  font-family: "Indie Flower", cursive;
   font-weight: bold;
 }
 
-.navbar-nav li a:hover {
-  background-color: #c1c1c1;
-  color: #4C7595;
-}
 
+.navbar-nav li a:hover {
+  background-color: #5F8CB5;
+  color: #c1c1c1;
+}
 
 /*Left*/
 .left {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+.left p {
+  text-align: justify;
 }
 
 /*Middle*/
@@ -107,31 +116,40 @@ a:hover {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+.middle p {
+  text-align: justify;
+}
 
 /*Right*/
 .right {
   display: none;
+}
+.right p {
   text-align: justify;
 }
-.suggestions-form {
-  width: 100%;
-  
+.form-control {
+  box-sizing: content-box;
+  padding: 0;
 }
 
+.suggestions-form {
+  width: 100%;
+}
 
 /*Footer*/
-.footer-left, .footer-right {
+.footer-left,
+.footer-right {
   margin: 0;
-  bottom:0;
+  bottom: 0;
   padding: 0;
   padding-top: 10px;
   box-sizing: border-box;
 }
 
-.footer-left p  {
+.footer-left p {
   text-align: left;
   color: #c1c1c1;
-  font-family: "indie Flower", cursive;
+  font-family: "Indie Flower", cursive;
   font-weight: bold;
 }
 
@@ -143,7 +161,7 @@ a:hover {
 .footer-right p {
   text-align: right;
   color: #c1c1c1;
-  font-family: "indie Flower", cursive;
+  font-family: "Indie Flower", cursive;
   font-weight: bold;
 }
 
@@ -154,12 +172,13 @@ a:hover {
     overflow-y: auto;
     padding-bottom: 15px;
   }
-  .left, .middle {
+  .left,
+  .middle {
     padding-bottom: 15px;
   }
   .footer {
     margin: 0;
-    bottom:0;
+    bottom: 0;
     height: 10vh;
   }
   .navbar-nav li {
@@ -170,15 +189,15 @@ a:hover {
     height: 40vh;
   }
   .navbar {
-    margin:0;
+    margin: 0;
     height: 5vh;
   }
   .page-header h1 {
-    font-size:100px;
+    font-size: 100px;
   }
-  
+
   .page-header h3 {
-    font-size:80px;
+    font-size: 80px;
   }
 }
 
