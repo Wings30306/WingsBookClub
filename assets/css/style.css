@@ -228,23 +228,25 @@ img {
     font-size: 80px;
   }
 
-.cover-img {
-  display: block;
-  position: absolute;
-  z-index: 2;
-  opacity: 1;
-  transition: opacity 2s ease-in-out;
-  margin: 0 0 15px 0;
-  padding:0; 
-}
 
-.cover-img:hover {
-  opacity: 0;
 }
 
 @media screen and (min-width: 1200px) {
   .right {
     display: table-cell;
     padding-bottom: 15px;
+  }
+  .cover-img {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+    margin: 0 0 15px 0;
+    padding:0; 
+  }
+  
+  .cover-img:hover {
+    opacity: 0;
   }
 }
