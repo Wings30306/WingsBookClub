@@ -23,6 +23,4 @@ The HTML5 and CSS3 have also been validated with **C3W Mark-up Validator** and *
 ## Thank you
 - to the creators of Bootstrap for having such an efficient framework for mobile-friendly development.
 - to Neil McEwen of the tutor team for the help when I ran into a problem.
-- to my fellow students, especially Simen Daehlin, for the ongoing patience and encouragement.
-
-
+- to my fellow students, especially [Simen Daehlin](https://github.com/eventyret), for the ongoing patience and encouragement.
