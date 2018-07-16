@@ -202,7 +202,7 @@ img {
 
 .choclov {
   background-image: url(../images/ChocolateLoversClubVertical.jpg);
-  background-size: 100% 60vh;
+  background-size: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -215,7 +215,7 @@ img {
 
 .hp {
   background-image: url(../images/HPvertical.jpg);
-  background-size: 100% 60vh;
+  background-size: 100% 74vh;
   background-repeat: no-repeat;
   background-position: top;
   background-color: rgba(255, 255, 255, 0.8);
@@ -227,7 +227,7 @@ img {
 
 .w2w  {
   background-image: url(../images/WomanToWomanFront.jpg);
-  background-size: 100% 60vh;
+  background-size: 100% 74vh;
   background-repeat: no-repeat;
   background-position: top;
   background-color: rgba(255, 255, 255, 0.8);
@@ -238,7 +238,7 @@ img {
 }
 .littleshop{
   background-image: url(../images/LittleShopFront.jpg);
-  background-size: 100% 60vh;
+  background-size: 100% 74vh;
   background-repeat: no-repeat;
   background-position: top;
   background-color: rgba(255, 255, 255, 0.8);
@@ -249,7 +249,7 @@ img {
 }
 .dragon{
   background-image: url(../images/DragonsTale.jpg);
-  background-size: 100% 60vh;
+  background-size: 100% 74vh;
   background-repeat: no-repeat;
   background-position: top;
   background-color: rgba(255, 255, 255, 0.8);
@@ -260,7 +260,7 @@ img {
 }
 .elf-tree {
   background-image: url(../images/ElfTree-cover.jpg);
-  background-size: 100% 60vh;
+  background-size: 100% 74vh;
   background-repeat: no-repeat;
   background-position: top;
   background-color: rgba(255, 255, 255, 0.8);
@@ -279,7 +279,7 @@ img {
     padding-bottom: 15px;
   }
   .middle .col-md-6 {
-    height:60vh;
+    height:75vh;
   }
   .left,
   .middle {
@@ -318,7 +318,8 @@ img {
   }
   .cover-img {
     display: block;
-    height: 59vh;
+    width: 100%;
+    height: 74vh;
     position: absolute;
     z-index: 2;
     opacity: 1;
