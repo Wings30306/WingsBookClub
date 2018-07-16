@@ -206,8 +206,6 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  background-color: rgba(255, 255, 255, 0.8);
-  background-blend-mode: overlay;
   background-attachment: local;
   z-index: 0;
   padding: 0;
@@ -218,8 +216,6 @@ img {
   background-size: 100% 74vh;
   background-repeat: no-repeat;
   background-position: top;
-  background-color: rgba(255, 255, 255, 0.8);
-  background-blend-mode: overlay;
   background-attachment: local;
   z-index: 0;
   padding: 0;
@@ -230,8 +226,6 @@ img {
   background-size: 100% 74vh;
   background-repeat: no-repeat;
   background-position: top;
-  background-color: rgba(255, 255, 255, 0.8);
-  background-blend-mode: overlay;
   background-attachment: local;
   z-index: 0;
   padding: 0;
@@ -240,8 +234,6 @@ img {
   background-image: url(../images/LittleShopFront.jpg);
   background-size: 100% 74vh;
   background-repeat: no-repeat;
-  background-position: top;
-  background-color: rgba(255, 255, 255, 0.8);
   background-blend-mode: overlay;
   background-attachment: local;
   z-index: 0;
@@ -252,8 +244,6 @@ img {
   background-size: 100% 74vh;
   background-repeat: no-repeat;
   background-position: top;
-  background-color: rgba(255, 255, 255, 0.8);
-  background-blend-mode: overlay;
   background-attachment: local;
   z-index: 0;
   padding: 0;
@@ -263,13 +253,30 @@ img {
   background-size: 100% 74vh;
   background-repeat: no-repeat;
   background-position: top;
-  background-color: rgba(255, 255, 255, 0.8);
-  background-blend-mode: overlay;
   background-attachment: local;
   z-index: 0;
   padding: 0;
 }
 
+.content {
+  background-position: top;
+  background-color: rgba(255, 255, 255, 0.8);
+    display: block;
+    width: 100%;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    margin: 0;
+    padding:0; 
+  }
+  
+  .content:hover {
+    opacity: 1;
+  }
 /*Responsiveness*/
 @media screen and (min-width: 992px) {
   .table-cell {
@@ -280,6 +287,10 @@ img {
   }
   .middle .col-md-6 {
     height:75vh;
+  }
+  .content {
+    height: 70vh;
+    margin:0;
   }
   .left,
   .middle {
@@ -315,26 +326,5 @@ img {
     display: table-cell;
     padding: 15px;
     box-sizing: border-box;
-  }
-  .cover-img {
-    display: block;
-    width: 100%;
-    height: 74vh;
-    position: absolute;
-    z-index: 2;
-    opacity: 1;
-    transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    -ms-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
-
-    margin: 0;
-    padding:0; 
-    width:100%;
-  }
-  
-  .cover-img:hover {
-    opacity: 0;
   }
 }
