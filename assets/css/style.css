@@ -278,6 +278,9 @@ img {
   margin: 0;
   padding: 0;
 }
+.content a {
+  text-decoration: none;
+}
 
 .content:hover {
   opacity: 1;
