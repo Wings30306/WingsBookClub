@@ -31,7 +31,7 @@
   margin: 0;
 }
 
-.bg-footer, {
+.bg-footer {
   background-color: #4c7595;
   margin: 0;
   z-index: 10;
@@ -58,8 +58,12 @@ body {
   font-family: "Short Stack", cursive;
 }
 
-h1,h2,h3,h4,h5{
-  font-family: "Bad Script"; 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bad Script";
   padding: 5px;
 }
 .quote {
@@ -136,14 +140,16 @@ a:hover {
 .middle p {
   text-align: justify;
 }
-.middle .row .col-md-6{
-  
+.middle .row .col-md-6 {
   border-color: #4c7595;
   border-width: 3px;
   border-style: double;
 }
 
-.middle .row .col-md-6 h3, .middle .row .col-md-6 h4, .middle .row .col-md-6 h5, .middle .row .col-md-6 p{
+.middle .row .col-md-6 h3,
+.middle .row .col-md-6 h4,
+.middle .row .col-md-6 h5,
+.middle .row .col-md-6 p {
   padding: 15px;
 }
 
@@ -171,7 +177,6 @@ a:hover {
   padding: 0;
   padding-top: 10px;
   box-sizing: border-box;
-  
 }
 
 .footer-left p {
@@ -197,7 +202,7 @@ img {
   width: 100%;
 }
 .cover-img {
-    display: none;
+  display: none;
 }
 
 .choclov {
@@ -221,7 +226,7 @@ img {
   padding: 0;
 }
 
-.w2w  {
+.w2w {
   background-image: url(../images/WomanToWomanFront.jpg);
   background-size: 100% 74vh;
   background-repeat: no-repeat;
@@ -230,7 +235,7 @@ img {
   z-index: 0;
   padding: 0;
 }
-.littleshop{
+.littleshop {
   background-image: url(../images/LittleShopFront.jpg);
   background-size: 100% 74vh;
   background-repeat: no-repeat;
@@ -239,7 +244,7 @@ img {
   z-index: 0;
   padding: 0;
 }
-.dragon{
+.dragon {
   background-image: url(../images/DragonsTale.jpg);
   background-size: 100% 74vh;
   background-repeat: no-repeat;
@@ -261,22 +266,22 @@ img {
 .content {
   background-position: top;
   background-color: rgba(255, 255, 255, 0.8);
-    display: block;
-    width: 100%;
-    z-index: 2;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    -ms-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
-    margin: 0;
-    padding:0; 
-  }
-  
-  .content:hover {
-    opacity: 1;
-  }
+  display: block;
+  width: 100%;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  margin: 0;
+  padding: 0;
+}
+
+.content:hover {
+  opacity: 1;
+}
 /*Responsiveness*/
 @media screen and (min-width: 992px) {
   .table-cell {
@@ -286,11 +291,11 @@ img {
     padding-bottom: 15px;
   }
   .middle .col-md-6 {
-    height:75vh;
+    height: 75vh;
   }
   .content {
     height: 70vh;
-    margin:0;
+    margin: 0;
   }
   .left,
   .middle {
