@@ -202,6 +202,7 @@ img {
 
 .choclov {
   background-image: url(../images/ChocolateLoversClubVertical.jpg);
+  background-size: 100% 60vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -214,7 +215,7 @@ img {
 
 .hp {
   background-image: url(../images/HPvertical.jpg);
-  background-size: cover;
+  background-size: 100% 60vh;
   background-repeat: no-repeat;
   background-position: top;
   background-color: rgba(255, 255, 255, 0.8);
@@ -226,7 +227,7 @@ img {
 
 .w2w  {
   background-image: url(../images/WomanToWomanFront.jpg);
-  background-size: cover;
+  background-size: 100% 60vh;
   background-repeat: no-repeat;
   background-position: top;
   background-color: rgba(255, 255, 255, 0.8);
@@ -237,7 +238,7 @@ img {
 }
 .littleshop{
   background-image: url(../images/LittleShopFront.jpg);
-  background-size: cover;
+  background-size: 100% 60vh;
   background-repeat: no-repeat;
   background-position: top;
   background-color: rgba(255, 255, 255, 0.8);
@@ -248,7 +249,7 @@ img {
 }
 .dragon{
   background-image: url(../images/DragonsTale.jpg);
-  background-size: cover;
+  background-size: 100% 60vh;
   background-repeat: no-repeat;
   background-position: top;
   background-color: rgba(255, 255, 255, 0.8);
@@ -259,7 +260,7 @@ img {
 }
 .elf-tree {
   background-image: url(../images/ElfTree-cover.jpg);
-  background-size: cover;
+  background-size: 100% 60vh;
   background-repeat: no-repeat;
   background-position: top;
   background-color: rgba(255, 255, 255, 0.8);
@@ -272,10 +273,13 @@ img {
 /*Responsiveness*/
 @media screen and (min-width: 992px) {
   .table-cell {
-    height: 50vh;
+    height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
     padding-bottom: 15px;
+  }
+  .middle .col-md-6 {
+    height:60vh;
   }
   .left,
   .middle {
@@ -314,6 +318,7 @@ img {
   }
   .cover-img {
     display: block;
+    height: 59vh;
     position: absolute;
     z-index: 2;
     opacity: 1;
@@ -322,12 +327,13 @@ img {
     -ms-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -webkit-transition: opacity 1s ease-in-out;
+
     margin: 0;
     padding:0; 
     width:100%;
   }
   
-  .cover-img:target {
+  .cover-img:hover {
     opacity: 0;
   }
 }
