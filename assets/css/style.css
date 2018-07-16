@@ -58,7 +58,7 @@ body {
   font-family: "Short Stack", cursive;
 }
 
-h1,h2,h3,h4 {
+h1,h2,h3,h4,h5{
   font-family: "Bad Script"; 
   padding: 5px;
 }
@@ -143,7 +143,7 @@ a:hover {
   border-style: double;
 }
 
-.middle .row .col-md-6 h3, .middle .row .col-md-6 p{
+.middle .row .col-md-6 h3, .middle .row .col-md-6 h4, .middle .row .col-md-6 h5, .middle .row .col-md-6 p{
   padding: 15px;
 }
 
