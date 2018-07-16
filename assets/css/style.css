@@ -3,7 +3,7 @@
 /* background colours */
 
 .bg-header {
-  background-image: url(../images/LosChristianosReading.jpg);
+  background-image: url(../images/readingeverywhere.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -206,7 +206,7 @@ img {
 }
 
 .choclov {
-  background-image: url(../images/ChocolateLoversClubVertical.jpg);
+  background-image: url(../images/chocolatelovers-front.jpg);
   background-size: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -217,7 +217,7 @@ img {
 }
 
 .hp {
-  background-image: url(../images/HPvertical.jpg);
+  background-image: url(../images/hp-front.jpg);
   background-size: 100% 74vh;
   background-repeat: no-repeat;
   background-position: top;
@@ -227,7 +227,7 @@ img {
 }
 
 .w2w {
-  background-image: url(../images/WomanToWomanFront.jpg);
+  background-image: url(../images/womantowoman-front.jpg);
   background-size: 100% 74vh;
   background-repeat: no-repeat;
   background-position: top;
@@ -236,7 +236,7 @@ img {
   padding: 0;
 }
 .littleshop {
-  background-image: url(../images/LittleShopFront.jpg);
+  background-image: url(../images/littleshop-front.jpg);
   background-size: 100% 74vh;
   background-repeat: no-repeat;
   background-blend-mode: overlay;
@@ -245,7 +245,7 @@ img {
   padding: 0;
 }
 .dragon {
-  background-image: url(../images/DragonsTale.jpg);
+  background-image: url(../images/dragonstale-cover.jpg);
   background-size: 100% 74vh;
   background-repeat: no-repeat;
   background-position: top;
@@ -254,7 +254,7 @@ img {
   padding: 0;
 }
 .elf-tree {
-  background-image: url(../images/ElfTree-cover.jpg);
+  background-image: url(../images/elfandtree-cover.jpg);
   background-size: 100% 74vh;
   background-repeat: no-repeat;
   background-position: top;
