@@ -333,6 +333,14 @@ img {
   opacity: 1;
 }
 
+.btn-chapter {
+  float: left;
+}
+
+.btn-stories {
+  float: right;
+}
+
 #note {
   width: 80%;
   margin: 0 auto;
