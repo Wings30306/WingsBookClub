@@ -345,10 +345,15 @@ img {
 
 .btn-chapter {
   float: left;
+  max-width: 35vw;
+  font-size: small;
+  text-align: left;
 }
 
 .btn-stories {
   float: right;
+  max-width: 30vw;
+  font-size: small;
 }
 
 #note {
