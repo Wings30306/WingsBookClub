@@ -18,7 +18,7 @@
       emailjs.init("user_N4stiwKDu7gIsgvT4gJnc");
     })();
   </script>
-  
+
 </head>
 
 <body class=bg-body>
@@ -114,9 +114,9 @@
         <h2>Feedback Welcome!</h2>
         <p>Have you read a story here and want to tell me what you thought? I'd love to hear about it!</p>
         <form onsubmit="sendMail($(this))">
-          <input class="form-control" type="text" name="name" placeholder="Your Name" id="fullname" value="name"  required autocomplete="name">
-          <input class="form-control" type="email" name="email" placeholder="Your Email" id="email" value="email"  required autocomplete="email">
-          <input class="form-control" type="text" name="title" placeholder="Story Title" id="title" value="title"  required>
+          <input class="form-control" type="text" name="name" placeholder="Your Name" id="fullname" value="name" required autocomplete="name">
+          <input class="form-control" type="email" name="email" placeholder="Your Email" id="email" value="email" required autocomplete="email">
+          <input class="form-control" type="text" name="title" placeholder="Story Title" id="title" value="title" required>
           <textarea class="form-control" name="description" placeholder="Your message here" id="description" value="2" rows="5" required></textarea>
           <button class="btn btn-lg btn-default btn-center" type="submit">Send</button>
         </form>
@@ -133,6 +133,7 @@
           <a href="https://www.facebook.com/wings.crimsonhazel" target="_blank">
             <i class="fa fa-facebook" aria-hidden="true"></i>
           </a>
+        </p>
       </div>
       <div class="footer-right col-xs-6">
         <p>
@@ -144,13 +145,13 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script type="text/javascript">
-      (function () {
-        emailjs.init("user_N4stiwKDu7gIsgvT4gJnc");
-      })();
-    </script>
-    <script src="assets/js/email.js"></script>
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_N4stiwKDu7gIsgvT4gJnc");
+    })();
+  </script>
+  <script src="assets/js/email.js"></script>
 </body>
 
 </html>
