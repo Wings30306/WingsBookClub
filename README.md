@@ -43,5 +43,5 @@ The website has been deployed via GitHub pages.
 ## Thank you
 - to the creators of Bootstrap for having such an efficient framework for mobile-friendly development.
 - to Neil McEwen of the tutor team for the help when I ran into a problem with the transitions.
-- to Yoni Lavi for the help with getting forms to work. (I know this is technically the next module but it's still great that they're working now!
+- to Yoni Lavi for the help with getting forms to work. (I know this is technically the next module but it's still great that they're working now!)
 - to my fellow students, especially <a href="https://github.com/eventyret" target="_blank">Simen Daehlin</a>, for the ongoing patience and encouragement.

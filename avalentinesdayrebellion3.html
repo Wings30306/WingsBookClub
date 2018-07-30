@@ -226,9 +226,14 @@
       <aside class="right col-lg-2 bg-right table-cell">
         <h2>Feedback Welcome!</h2>
         <p>Have you read a story here and want to tell me what you thought? I'd love to hear about it!</p>
-        <a href=mailto:jo_hannah@outlook.com>
-          <i class="fa fa-envelope" aria-hidden="true"></i>
-        </a>
+        <form onsubmit="sendMail(); return false">
+          <input class="form-control" type="text" name="name" placeholder="Your Name" id="fullname" required autocomplete="name">
+          <input class="form-control" type="email" name="email" placeholder="Your Email" id="email" required autocomplete="email">
+          <input class="form-control" type="text" name="title" placeholder="Story Title" id="title" value="A Valentine’s Day Rebellion"
+            required>
+          <textarea class="form-control" name="description" placeholder="Your Feedback" id="description" rows="5" required></textarea>
+          <button class="btn btn-lg btn-default btn-center" type="submit">Send</button>
+        </form>
       </aside>
     </div>
   </main>
@@ -254,6 +259,13 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_N4stiwKDu7gIsgvT4gJnc");
+    })();
+  </script>
+  <script src="assets/js/email.js"></script>
 </body>
 
 </html>

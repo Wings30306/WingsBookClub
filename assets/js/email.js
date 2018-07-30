@@ -1,14 +1,14 @@
 function sendMail() {
-
- var template_params = {
+  
+var serviceId = "default_service";
+var templateId = "bookclub";
+var templateParams = {
   "from_name": $("#fullname").val(),
   "from_email": $("#email").val(),
   "title": $("#title").val(),
   "message": $("#description").val(),
- };  
-var service_id = "default_service";
-var template_id = "bookclub";
-emailjs.send(service_id,template_id,template_params)
+ };
+emailjs.send(serviceId,templateId,templateParams)
 
     .then(
       function (response) {
