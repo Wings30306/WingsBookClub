@@ -92,6 +92,18 @@ a:hover {
   text-decoration: none;
 }
 
+.intro {
+  border-radius: 20%;
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  -o-border-radius: 20%;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 10px 10px 20px;
+}
+
 /*Header*/
 .page-header {
   color: #fff;
@@ -395,6 +407,11 @@ img {
   .left,
   .middle {
     padding-bottom: 15px;
+  }
+  .intro {
+    width: 50%;
+    float: right;
+    padding: 0 20px 20px 20px;
   }
   .footer {
     margin: 0;
