@@ -4,7 +4,7 @@ A 5-page website (with subpages for stories) made using **HTML5**, **CSS3** and 
 
 
 ## What does it do? 
-I wanted a website for sharing book recommendations as well as my own writingsand friends' stories. 
+I wanted a website for sharing book recommendations as well as my own writings and friends' stories. 
 
 
 ## Wireframes / mock-ups
